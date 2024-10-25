@@ -1,9 +1,9 @@
 === Parcel Pro ===
 Tags: Shipping, Verzending, Pakketten, ShopsUnited, PostNL
 Requires at least: 3.0.1
-Tested up to: 6.4.3
+Tested up to: 6.6.2
 Requires PHP: 5.2.4
-Stable tag: 1.8.4
+Stable tag: 1.9.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -28,6 +28,9 @@ Zie de handleiding voor meer details.
 Op het moment ondersteunen we alleen de standaard WooCommerce checkout (de `[woocommerce_checkout]` shortcode). De block-based checkout wordt niet officiëel ondersteund. Heeft u hier vragen over of interesse in, neem dan contact op met [ict@parcelpro.nl](mailto:ict@parcelpro.nl).
 
 == Changelog ==
+
+= 1.9.0 - 2024-10-23 =
+* Fix XSS vulnerability in nonce error message
 
 = 1.8.4 - 2024-06-13 =
 * Fix potential "undefined array key 2" error in order box
